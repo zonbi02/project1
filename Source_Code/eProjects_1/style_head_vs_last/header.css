@@ -1,0 +1,258 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, san-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 12px 50px;
+	height: 70px;
+	align-items: center;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: #63b8ff;
+
+}
+
+header:hover {
+	background-color: #99FFFF;
+}
+
+
+li {
+	list-style: none;
+}
+
+a {
+ 	text-decoration: none;
+}
+.logo {
+	flex: 1;
+}
+
+.menu {
+	flex: 3;
+	display: flex;
+}
+
+.menu  li {
+	padding: 0 12px;
+	position: relative;
+
+}
+
+.menu  li a:hover {
+	color: red;
+
+}
+
+.menu  li i:hover {
+	color: red;
+
+}
+
+.menu li:hover .brand{
+	  background-color: #FFFFFF;
+      visibility: visible;
+      top: 50px;
+
+}
+
+.menu li:hover .type{
+	  background-color: #FFFFFF;
+      visibility: visible;
+      top: 50px;
+
+}
+
+.brand {
+	position: absolute;
+	width: 250px;
+	top: 60px;
+    z-index: 3;
+	border: 1px solid #DDDDDD;
+	padding: 0  0 10px 0;
+	visibility: hidden;
+	transition: 0.1s;
+}
+
+.type {
+	position: absolute;
+	width: 250px;
+	top: 60px;
+	border: 1px solid #DDDDDD;
+	padding: 0  0 10px 0;
+    z-index: 3;
+	visibility: hidden;
+	transition: 0.1s;
+}
+
+.menu li a {
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+.any {
+	flex: 1;
+	display: flex;
+}
+
+.any li {
+	padding: 0 12px;
+}
+/*phần search*/
+.search-box{
+    position: absolute;
+    background: #fff;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+
+
+.search-box input{
+    background: none;
+    border: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 15px;
+    line-height: 20px;
+    width: 0px;
+    transition: all 1s;
+}
+
+.search-box:hover input{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box input:focus{
+    width: 280px;
+    padding: 0 6px;
+}
+
+.search-button{
+    background: none;
+    outline: none;
+    border: none;
+    width: 50px;
+    margin-top: -28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.search-button i {
+    background: #1b2a49;
+    z-index: 1;
+    font-size: 30px;
+    color: #fff;
+    padding: 25px;
+    border-radius: 50px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);;
+}
+/*hết phần search*/
+/* thiet lap style hover list*/
+.brand li {
+     list-style: none;
+     padding: 10px;
+     width: 100%;
+     background: #fff;
+     box-shadow: 0 5px 15px rgba(0,0,0,.1);
+     transition: transform 0.5s;
+}
+
+.type li {
+     list-style: none;
+     padding: 10px;
+     width: 100%;
+     background: #fff;
+     box-shadow: 0 5px 15px rgba(0,0,0,.1);
+     transition: transform 0.5s;
+ }
+
+.brand  li span{
+     width: 40px;
+     height: 40px;
+     text-align: center;
+     line-height: 40px;
+     background: #25bcff;
+     color: #fff;
+     display: inline-block;
+     border-radius: 50%;
+     margin-right: 40px;
+     font-size:16px;
+     font-weight: bold;
+ }
+
+ .brand:hover li {
+     opacity: 0.2;
+      border-radius: 10px;
+ }
+ .brand li:hover{
+     transform: scale(1.1);
+     z-index: 10;
+     background: #25bcff;
+     box-shadow: 0 5px 25px rgba(0,0,0,.2);
+     color: #fff;
+     opacity: 1;
+ }
+ .brand li:hover span {
+     background: #fff;
+     color: #25bcff;
+ }
+
+ .type li span{
+     width: 40px;
+     height: 40px;
+     text-align: center;
+     line-height: 40px;
+     background: #25bcff;
+     color: #fff;
+     display: inline-block;
+     border-radius: 50%;
+     margin-right: 40px;
+     font-size:16px;
+     font-weight: bold;
+
+ }
+
+ .type:hover li {
+     opacity: 0.2;
+          border-radius: 10px;
+ }
+ .type li:hover{
+     transform: scale(1.1);
+     z-index: 10;
+     background: #25bcff;
+     box-shadow: 0 5px 25px rgba(0,0,0,.2);
+     color: #fff;
+     opacity: 1;
+ }
+ .type li:hover span {
+     background: #fff;
+     color: #25bcff;
+ }
+ /*hết phần list*/
+
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }

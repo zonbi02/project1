@@ -1,0 +1,51 @@
+.footer{
+    background-color: #28589c;
+    width:100%;
+
+  }
+
+.box {
+    float: left;
+    width: 66.66%;
+    padding: 25px;
+	text-transformation: bold;
+  }
+  .clearfix {
+        display: flex;
+
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .email{
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 10px;
+
+  }
+  .email a{
+    color: white;
+  }
+  .img-fooder-1{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 70px;
+  }
+  .img-fooder-2{
+    width: 30%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    height: 100%;
+  }
+  .img-fooder-2 img{
+    width: 100%;
+    height: 95%;
+    line-height: 95%;
+  }
+  .img-fooder-3{
+    height: 100%;
+  }

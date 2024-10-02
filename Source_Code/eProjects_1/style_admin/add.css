@@ -1,0 +1,84 @@
+.input-ss{
+	display: flex;
+	width: 95%;
+	margin: 2.5%;
+}
+.input-s1{
+	width: 48.75%;
+	margin-right: 1.25%;
+	border: solid #e6e6e6 1px;
+	background-color: white;
+	height: 520px;
+}
+.input-s2{
+	width: 48.75%;
+	border: solid #e6e6e6 1px;
+	margin-left: 1.25%;
+	height: 520px;
+	background-color: white;
+
+}
+.input-a1{
+	width: 100%;
+	height: 40px;
+	background-color: #f2f2f2;
+	display: flex;
+}
+.input-a1 h5 {
+	padding: 10px;
+	margin-right: 200px;
+}
+.input-a2{
+	padding-top: 30px;
+}
+.hr-2{
+	height: 0.5px;
+	width: 90%;
+	background-color:#ccc9c9 ;
+}
+.input-a3{
+	margin-left: 40px;
+	padding-top: 20px;
+}
+.input-a3 input{
+   width: 90%;
+   height: 40px;
+   border-radius: 5px;
+	border: solid #ccc9c9 1px;
+}
+.input-b1{
+	width: 45%;
+	margin-left: 40px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+
+}
+.input-b2{
+	margin-top: 15px;
+
+}
+.input-b1 input{
+   width: 100%;
+   height: 40px;
+   border-radius: 5px;
+	border: solid #ccc9c9 1px;
+
+}
+
+.input-a4{
+	width: 90%;
+	display: flex;
+}
+.submit{
+	margin-top:5px;
+	margin-left: 130px;
+	width: 50px;
+	height: 30px;
+}
+.input-s3{
+	width: 55%;
+	height: 450px;
+	margin-left: 2.5%;
+	background-color: white;
+	border: solid #e6e6e6 1px;
+}
